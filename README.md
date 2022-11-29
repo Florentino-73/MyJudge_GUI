@@ -17,7 +17,7 @@
 
 实现了辅助等价性确认 `GUI` 工具，可以对实验四中机器判定的等价程序对进行人工判断，完善程序等价对判断结果并保存在文件中。
 
-<div align=center><img width = '450' height ='300' src = res.png/></div>
+<div align=center><img width = '450' height ='300' src = ./pic/res.png/></div>
 
 #
 
@@ -33,7 +33,7 @@
 
 首先设计用户登录界面，在 `QT` 中使用工具画出界面图如下：
 
-<div align=center><img width = '300' height ='180' src = login.png/></div>
+<div align=center><img width = '300' height ='180' src = ./pic/login.png/></div>
 
 该界面中，用户输入账户名和密码各占一个输入文本框，此外还有一个可选的 `‘Remember me’` `checkbox` ，勾选后程序下一次登陆可以记住用户名，最下面是一个登陆的 `button`。
 
@@ -62,7 +62,7 @@ void LoginWidget::on_pushButton_clicked()
 
 接着设计用户判断界面，设计界面如下：
 
-<div align=center><img width = '500' height ='300' src = design.png/></div>
+<div align=center><img width = '500' height ='300' src = ./pic/design.png/></div>
 
 该界面从上到下包括：
 - 三个 `label` ，用于输出提示语；
@@ -128,14 +128,14 @@ void JudgeWidget::on_yes_clicked()
 
 用户判断的部分截图如下：
 
-<div align=center><img width = '400' height ='270' src = inequal.png/></div>
+<div align=center><img width = '400' height ='270' src = ./pic/inequal.png/></div>
 
-<div align=center><img width = '400' height ='270' src = doubt.png/></div>
+<div align=center><img width = '400' height ='270' src = ./pic/doubt.png/></div>
 
 ### **3.3 保存人工判断结果**
 
 我们的辅助等价性程序判断工具将结果保存至对应的 `txt` 文件中，结果如下：
-<div align=center><img width = '400' height ='220' src = txt.png/></div>
+<div align=center><img width = '400' height ='220' src = ./pic/txt.png/></div>
 
 #
 
@@ -145,13 +145,13 @@ void JudgeWidget::on_yes_clicked()
 
 
 使用 `git init` 命令创建并初始化仓库：
-<div align=center><img width = '300' height ='100' src = 'git init.png'/></div>
+<div align=center><img width = '300' height ='100' src = './pic/git init.png'/></div>
  
 使用 `git commit -m` 命令提交更新内容：
-<div align=center><img width = '300' height ='150' src = 'git commit.png'/></div>
+<div align=center><img width = '300' height ='150' src = './pic/git commit.png'/></div>
 
 使用 `git log` 等命令查看当前版本等：
-<div align=center><img width = '300' height ='130' src = 'git log.png'/></div>
+<div align=center><img width = '300' height ='130' src = './pic/git log.png'/></div>
 
 #
 
