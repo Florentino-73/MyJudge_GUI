@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file alias="background">C:/Users/lenovo/Pictures/Saved Pictures/v2-0196aafee8c975fdf6ed534ea561169a_r.jpg</file>
+    </qresource>
+</RCC>
